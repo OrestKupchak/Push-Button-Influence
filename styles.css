@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* a {
+  color: #08b6e6;
+}
+/*Header styles start*/
+.navbar.navbar-default {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  color: #666;
+  vertical-align: middle;
+}
+.navbar.navbar-default .nav {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+.navbar.navbar-default .nav div {
+  padding: 0px 15px 0px 15px;
+  font-size: 20px;
+}
+.navbar.navbar-default .nav div a {
+  color: #808080;
+  text-decoration: none;
+}
+.navbar.navbar-default .nav div a:hover {
+  color: #08b6e6;
+}
+.navbar.navbar-default .nav div a:active {
+  color: #337ab7;
+}
+.navbar.navbar-default .nav .logo {
+  padding-right: 80px;
+}
+.navbar.navbar-default .nav .logo img {
+  max-height: 140px;
+  max-width: 160px;
+}
+.navbar.navbar-default .search > img {
+  width: 20px;
+  height: 20px;
+}
+/*Header styles end*/
+/*Banner/Jumbotron Start*/
+.main-header {
+  background-image: url("imgs/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-origin: border-box;
+}
+.banner.jumbotron {
+  color: #fff;
+  padding: 80px 0px 80px 0px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  text-align: center;
+  vertical-align: middle;
+}
+.banner.jumbotron .container {
+  padding: 10px 0px 10px 0px;
+}
+.banner.jumbotron .btn {
+  margin-top: 30px;
+  width: 400px;
+  max-width: 75%;
+  min-width: 20%;
+  padding: 12px 30px 12px 30px;
+}
+.banner.jumbotron .btn:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  filter: blur(0.1px);
+}
+.banner.jumbotron .btn:active {
+  filter: blur(0.1px);
+  background-color: transparent;
+  border: 1px solid #fff;
+  opacity: 0.4;
+}
+/*Banner/Jumbotron End*/
+/*Credibility Logos Styles Start*/
+.media {
+  background-color: #fff;
+}
+.media .channels {
+  display: flex;
+}
+.media h4 {
+  padding: 15px 0 0 10px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+.media div {
+  justify-content: center;
+  align-items: baseline;
+  padding: 5px 5px 5px 5px;
+  margin: 1px 1px 2px 1px;
+}
+.media .channels > div:hover {
+  border: 1px solid #08b6e6;
+}
+.media img {
+  width: 90px;
+  heigth: 50px;
+  padding: 5px 10px 5px 10px;
+}
+/*Credibility Logos Styles End*/
+/* Subscribtion Styles Start */
+.headline.subscription {
+  background-color: #08b6e6;
+  color: #fff;
+}
+.headline.subscription .container .subscription.row {
+  padding: 30px 15px 50px 15px;
+}
+.headline.subscription .container .subscription.row img {
+  padding-right: 40px;
+  padding-top: 10px;
+}
+.headline.subscription ul {
+  padding-left: 20px;
+}
+.headline.subscription li {
+  font-size: 18px;
+  padding-top: 5px;
+}
+/* Subscribtion Styles End */
+/* Featured Guests Styles Start */
+.persons {
+  padding: 30px 140px 100px 140px;
+}
+.persons a {
+  text-decoration: none;
+}
+.influencers.row h2 {
+  text-align: center;
+  font-size: 34px;
+  padding: 0px 140px 0px 140px;
+}
+.about.person {
+  padding: 50px 40px 0px 0px;
+  color: #666;
+  line-height: 20px;
+}
+.about.person h4 {
+  font-size: 20px;
+  line-height: 20px;
+}
+.about.person .person.photo img {
+  width: 220px;
+  height: 140px;
+  float: left;
+  margin: 0px 20px 50px 20px;
+}
+/* Featured Guests Styles End */
+/* Latest Episodes Styles Start */
+.episodes {
+  padding: 30px 140px 70px 140px;
+  color: #fff;
+  background-color: #1c1c1c;
+}
+.episodes a {
+  text-decoration: none;
+}
+.episodes h2 {
+  text-align: center;
+  font-size: 34px;
+  padding: 0px 140px 0px 140px;
+}
+.episodes .episode {
+  padding: 50px 40px 0px 10px;
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+}
+.episodes .episode .person.photo img {
+  width: 220px;
+  height: 140px;
+  margin-bottom: 30px;
+}
+.episodes .btn {
+  margin-top: 5%;
+  margin-left: 40%;
+  font-size: 20px;
+  border: 2px solid #08b6e6;
+  background-color: #1c1c1c;
+  color: #08b6e6;
+  width: 200px;
+  padding: 12px 30px 12px 30px;
+}
+.episodes .btn:hover {
+  background-color: #08b6e6;
+  color: #1c1c1c;
+  font-weight: normal;
+  border: 1px solid #666;
+  filter: blur(0.1px);
+}
+.episodes .btn:active {
+  filter: blur(0.1px);
+  background-color: #08b6e6;
+  border: 1px solid #fff;
+  opacity: 0.3;
+}
+.episodes .other-episodes {
+  margin-left: 20px;
+}
+/* Latest Episodes Styles End */
+/* Popular Episodes Styles Start */
+.popular h2 {
+  font-size: 34px;
+  padding: 10px 0px 0px 40px;
+}
+.popular .episode {
+  padding: 50px 40px 40px 20px;
+  color: #000;
+  line-height: 20px;
+}
+.popular .episode h4 {
+  font-size: 20px;
+  line-height: 20px;
+}
+.popular .episode .person.photo img {
+  width: 220px;
+  height: 140px;
+  float: left;
+  margin: 0px 20px 50px 20px;
+}
+.popular h3 {
+  font-weight: bolder;
+  padding-top: 15px;
+}
+.FBcommunity {
+  height: 900px;
+}
+/* Popular Episodes Styles End */
+/*Footer Styles Start*/
+.footer a img {
+  width: 550px;
+  height: 280px;
+}
+/*Footer Styles End*/
