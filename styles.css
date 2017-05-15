@@ -211,13 +211,15 @@
 }
 /* Latest Episodes Styles End */
 /* Popular Episodes Styles Start */
+.popular {
+  color: #000;
+}
 .popular h2 {
   font-size: 34px;
   padding: 10px 0px 0px 40px;
 }
 .popular .episode {
   padding: 50px 40px 40px 20px;
-  color: #000;
   line-height: 20px;
 }
 .popular .episode h4 {
@@ -234,13 +236,124 @@
   font-weight: bolder;
   padding-top: 15px;
 }
-.FBcommunity {
-  height: 900px;
+.popular .FBcommunity .FBframe {
+  margin-top: 40px;
+  height: 550px;
+  width: 350px;
+  background-image: url("imgs/frame.png");
+  background-size: cover;
+  border: none;
+}
+.popular .TWcommunity .TWframe {
+  margin-top: 20px;
+  height: 200px;
+  width: 350px;
+  background-image: url("imgs/frame.png");
+  background-size: cover;
+  border: none;
+}
+.popular .TWcommunity .TWframe h4 {
+  margin-top: 15px;
+}
+.popular .TWcommunity .TWframe h4 a {
+  margin-right: 100px;
+  font-size: 10px;
 }
 /* Popular Episodes Styles End */
+/* Consume Styles Start */
+.consume {
+  background-color: #d0d0d0;
+  margin-top: 10px;
+  text-align: center;
+}
+.consume > h2 {
+  font-size: 40px;
+}
+.consume > h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.consume .container {
+  padding: 20px 40px 40px 40px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.consume .container a {
+  text-decoration: none;
+}
+.consume .container .option {
+  font-size: 20px;
+}
+.consume .container .option h4 {
+  font-weight: bold;
+  padding-left: 80px;
+}
+.consume .container .option .round {
+  background-color: #000;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  font-size: 54px;
+  font-weight: bold;
+  color: #08b6e6;
+  float: left;
+}
+.consume .container .option img {
+  height: 50px;
+  border-radius: 2%;
+  padding-right: 150px;
+  padding-left: 30px;
+}
+/* Consume Styles End */
 /*Footer Styles Start*/
-.footer a img {
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+.footer .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer .container a img {
   width: 550px;
   height: 280px;
+}
+.footer .container h2 {
+  padding-top: 130px;
+  padding-left: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer .container .btn {
+  margin-top: 5%;
+  margin-left: 25%;
+  font-size: 20px;
+  border: 2px solid #08b6e6;
+  background-color: #000;
+  color: #08b6e6;
+  width: 300px;
+  padding: 12px 0px 12px 0px;
+}
+.footer .container .btn:hover {
+  background-color: #08b6e6;
+  color: #1c1c1c;
+  font-weight: normmal;
+  border: 1px solid #666;
+  filter: blur(0.1px);
+}
+.footer .container .btn:active {
+  filter: blur(0.1px);
+  background-color: #08b6e6;
+  border: 1px solid #fff;
+  opacity: 0.3;
+}
+.legalese {
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 15px 10px 10px 10px;
 }
 /*Footer Styles End*/

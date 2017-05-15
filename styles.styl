@@ -239,13 +239,14 @@ container-width = max-width
 
  /* Popular Episodes Styles Start */
 .popular 
+		color #000
+
 		h2 
 			font-size 34px
 			padding 10px 0px 0px 40px
 
 		.episode
 			padding 50px 40px 40px 20px
-			color #000
 			line-height 20px
 
 			h4 
@@ -261,16 +262,138 @@ container-width = max-width
 		h3
 			font-weight bolder
 			padding-top 15px
-.FBcommunity
-		height 900px
 
+
+		.FBcommunity .FBframe
+			margin-top 40px
+			height 550px
+			width 350px
+			background-image url(imgs/frame.png)
+			background-size cover
+			border none
+
+
+		.TWcommunity .TWframe
+			margin-top 20px
+			height 200px
+			width 350px
+			background-image url(imgs/frame.png)
+			background-size cover
+			border none		
+
+
+			h4
+				margin-top 15px
+				a
+					margin-right 100px
+					font-size 10px
  /* Popular Episodes Styles End */
 
 
+
+ /* Consume Styles Start */
+
+.consume
+	background-color #d0d0d0
+	margin-top 10px
+	text-align center
+
+	& > h2
+		font-size 40px
+
+	& > h4
+		font-size 20px
+		font-weight bolder	
+		padding-bottom 30px
+
+	.container
+		padding 20px 40px 40px 40px
+		display flex
+		flex row
+		justify-content space-between
+		align-items center
+
+		a
+			text-decoration none
+
+
+		.option
+			font-size 20px
+
+			h4
+				font-weight bold
+				padding-left 80px
+
+
+			.round
+				background-color black
+				border-radius 50%
+				height 80px
+				width 80px
+				font-size 54px
+				font-weight bold
+				color default-blue
+				float left
+
+			img
+				height 50px
+				border-radius 2%
+				padding-right 150px
+				padding-left 30px
+
+/* Consume Styles End */
+
+
 /*Footer Styles Start*/
-.footer  a  img
-		width 550px
-		height 280px
+.footer  
+	background-color black
+	color white
+
+
+	.container
+		padding-top 80px
+		padding-bottom 80px
+
+		a  img
+			width 550px
+			height 280px
+
+		h2
+			padding-top 130px
+			padding-left 30px
+			font-weight bold
+			text-align center
+
+		.btn
+			margin-top 5%
+			margin-left 25%
+			font-size 20px
+			border 2px solid default-blue
+			background-color black 
+			color default-blue 
+			width 300px
+			padding 12px 0px 12px 0px
+							
+			&:hover
+				background-color default-blue
+				color #1c1c1c 
+				font-weight normmal
+				border 1px solid default-grey
+				filter blur(0.1px)
+
+			&:active	
+				filter blur(0.1px)
+				background-color default-blue
+				border 1px solid white	
+				opacity 0.3
+
+
+
+.legalese
+	text-align center
+	background-color #1c1c1c 
+	color white
+	padding 15px 10px 10px 10px
 
 /*Footer Styles End*/
 
