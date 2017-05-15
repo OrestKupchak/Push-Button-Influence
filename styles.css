@@ -16,7 +16,6 @@
 }
 .navbar.navbar-default .nav {
   display: flex;
-  flex: row;
   justify-content: center;
   align-items: center;
 }
@@ -52,6 +51,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-origin: border-box;
+  background-position: 0 -50px;
 }
 .banner.jumbotron {
   color: #fff;
@@ -66,6 +66,7 @@
 }
 .banner.jumbotron .btn {
   margin-top: 30px;
+  margin-bottom: 90px;
   width: 400px;
   max-width: 75%;
   min-width: 20%;
@@ -98,15 +99,15 @@
 .media div {
   justify-content: center;
   align-items: baseline;
-  padding: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 10px;
   margin: 1px 1px 2px 1px;
 }
 .media .channels > div:hover {
   border: 1px solid #08b6e6;
 }
 .media img {
-  width: 90px;
-  heigth: 50px;
+  width: 100px;
+  height: 50px;
   padding: 5px 10px 5px 10px;
 }
 /*Credibility Logos Styles End*/
@@ -214,6 +215,9 @@
 .popular {
   color: #000;
 }
+.popular a {
+  text-decoration: none;
+}
 .popular h2 {
   font-size: 34px;
   padding: 10px 0px 0px 40px;
@@ -221,6 +225,7 @@
 .popular .episode {
   padding: 50px 40px 40px 20px;
   line-height: 20px;
+  text-decoration: none;
 }
 .popular .episode h4 {
   font-size: 20px;
@@ -240,17 +245,17 @@
   margin-top: 40px;
   height: 550px;
   width: 350px;
-  background-image: url("imgs/frame.png");
+  background-image: url("imgs/frame.jpg");
   background-size: cover;
-  border: none;
+  border: 1px solid #808080;
 }
 .popular .TWcommunity .TWframe {
   margin-top: 20px;
   height: 200px;
   width: 350px;
-  background-image: url("imgs/frame.png");
+  background-image: url("imgs/frame2.jpg");
   background-size: cover;
-  border: none;
+  border: 1px solid;
 }
 .popular .TWcommunity .TWframe h4 {
   margin-top: 15px;
@@ -258,6 +263,7 @@
 .popular .TWcommunity .TWframe h4 a {
   margin-right: 100px;
   font-size: 10px;
+  margin-bottom: 40px;
 }
 /* Popular Episodes Styles End */
 /* Consume Styles Start */
@@ -277,7 +283,6 @@
 .consume .container {
   padding: 20px 40px 40px 40px;
   display: flex;
-  flex: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -340,7 +345,7 @@
 .footer .container .btn:hover {
   background-color: #08b6e6;
   color: #1c1c1c;
-  font-weight: normmal;
+  font-weight: normal;
   border: 1px solid #666;
   filter: blur(0.1px);
 }

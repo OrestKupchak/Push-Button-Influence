@@ -21,7 +21,6 @@ container-width = max-width
 		
 		.nav
 				display flex
-				flex row
 				justify-content center
 				align-items center
 					
@@ -63,6 +62,7 @@ container-width = max-width
 				background-repeat no-repeat
 				background-size 100%
 				background-origin border-box 
+				background-position 0 -50px
 
 .banner.jumbotron
 				color #fff
@@ -77,6 +77,7 @@ container-width = max-width
 
 				.btn
 					margin-top 30px
+					margin-bottom 90px
 					width 400px
 					max-width 75%
 					min-width 20%
@@ -113,16 +114,16 @@ container-width = max-width
 		div
 			justify-content center
 			align-items baseline
-			padding 5px 5px 5px 5px
+			padding 5px 10px 5px 10px
 			margin 1px 1px 2px 1px
-				
-			
+
+	
 		.channels > div:hover
 			border 1px solid default-blue
 			
 		img	
-			width 90px
-			heigth 50px
+			width 100px
+			height 50px
 			padding 5px 10px 5px 10px
 /*Credibility Logos Styles End*/
 
@@ -240,6 +241,8 @@ container-width = max-width
  /* Popular Episodes Styles Start */
 .popular 
 		color #000
+		a
+			text-decoration none	
 
 		h2 
 			font-size 34px
@@ -248,6 +251,7 @@ container-width = max-width
 		.episode
 			padding 50px 40px 40px 20px
 			line-height 20px
+			text-decoration none
 
 			h4 
 				font-size 20px
@@ -268,18 +272,18 @@ container-width = max-width
 			margin-top 40px
 			height 550px
 			width 350px
-			background-image url(imgs/frame.png)
+			background-image url(imgs/frame.jpg)
 			background-size cover
-			border none
+			border 1px solid grey
 
 
 		.TWcommunity .TWframe
 			margin-top 20px
 			height 200px
 			width 350px
-			background-image url(imgs/frame.png)
+			background-image url(imgs/frame2.jpg)
 			background-size cover
-			border none		
+			border 1px solid 
 
 
 			h4
@@ -287,6 +291,9 @@ container-width = max-width
 				a
 					margin-right 100px
 					font-size 10px
+					margin-bottom 40px
+
+
  /* Popular Episodes Styles End */
 
 
@@ -309,7 +316,6 @@ container-width = max-width
 	.container
 		padding 20px 40px 40px 40px
 		display flex
-		flex row
 		justify-content space-between
 		align-items center
 
@@ -377,7 +383,7 @@ container-width = max-width
 			&:hover
 				background-color default-blue
 				color #1c1c1c 
-				font-weight normmal
+				font-weight normal
 				border 1px solid default-grey
 				filter blur(0.1px)
 
