@@ -117,7 +117,9 @@ container-width = max-width
 			padding 5px 10px 5px 10px
 			margin 1px 1px 2px 1px
 
-	
+			&:nth-child(7) img
+					width 150px
+
 		.channels > div:hover
 			border 1px solid default-blue
 			
@@ -243,6 +245,9 @@ container-width = max-width
 		color #000
 		a
 			text-decoration none	
+		.container
+			padding-top 20px
+			padding-bottom 40px	
 
 		h2 
 			font-size 34px
@@ -274,26 +279,28 @@ container-width = max-width
 			width 350px
 			background-image url(imgs/frame.jpg)
 			background-size cover
-			border 1px solid grey
+			border 1px solid #bdbdbd
+
+		.FBcommunity h4 
+			padding-top 30px
+			span
+				font-size 12px	
 
 
 		.TWcommunity .TWframe
-			margin-top 20px
+			margin-top 0px
 			height 200px
 			width 350px
 			background-image url(imgs/frame2.jpg)
 			background-size cover
-			border 1px solid 
+			border 1px solid #bdbdbd
+			margin-bottom 20px
 
+		span > a
+			font-size 12px
 
-			h4
-				margin-top 15px
-				a
-					margin-right 100px
-					font-size 10px
-					margin-bottom 40px
-
-
+			&:nth-child(2)
+				margin-left 200px
  /* Popular Episodes Styles End */
 
 
@@ -322,13 +329,16 @@ container-width = max-width
 		a
 			text-decoration none
 
-
 		.option
 			font-size 20px
 
 			h4
 				font-weight bold
-				padding-left 80px
+				padding-left 50px
+				padding-right 60px
+				font-size 20px
+				text-align left
+
 
 
 			.round
@@ -340,12 +350,29 @@ container-width = max-width
 				font-weight bold
 				color default-blue
 				float left
+				margin-right 15px
 
 			img
 				height 50px
-				border-radius 2%
-				padding-right 150px
-				padding-left 30px
+				padding-right 190px
+
+
+		
+
+			.logos.container
+				padding-left 10px
+				width 200px
+				display flex
+				justify-content center
+				align-items baseline
+				padding-top 0px
+
+
+				img
+					height 45px
+					border-radius 17%
+					padding-right 10px
+					padding-left 10px
 
 /* Consume Styles End */
 
@@ -365,7 +392,6 @@ container-width = max-width
 			height 280px
 
 		h2
-			padding-top 130px
 			padding-left 30px
 			font-weight bold
 			text-align center
